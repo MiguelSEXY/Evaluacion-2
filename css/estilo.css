@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5{
 .main-header__contactInfo__phone{
     background:#de423a;
     color: #fff;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
 }
 
@@ -245,6 +245,7 @@ h1,h2,h3,h4,h5{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: .8em;
+	margin-top: 80px;
 }
 .copy{
 	text-align: center;
@@ -263,6 +264,24 @@ h1,h2,h3,h4,h5{
 	position: relative;
 	top: 3px;
 	right: 5px;
+}
+
+/*----------------Galeria CSS------------------*/
+
+.carrusel{
+	width: 100%;
+}
+
+.tamaño_carrusel{
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+
+}
+
+.carousel-item{
+	width: 600px;
+	height: 600px;
 }
 
 /*----------------Estilos Responsivos------------------*/
@@ -320,7 +339,26 @@ h1,h2,h3,h4,h5{
 	.main-footer .container--flex{
 		align-items: flex-start;
 	}
+	.carrusel{
+		width: 100%;
+	}
 	
+	.tamaño_carrusel{
+		display: block;
+		width: 480px;
+		margin: 0 auto;
+	
+	}
+	
+	.carousel-item{
+		width: 480px;
+		height: auto;
+	}
+
+	.carousel-inner{
+		width: 480px;
+		height: auto;
+	}
 	
 }
 @media screen and (min-width:1024px){
@@ -397,6 +435,18 @@ h1,h2,h3,h4,h5{
 	.today-special__price{
 	font-size: 2.2em;
 	
+	}
+	.tamaño_carrusel{
+		display: block;
+		width: 600px;
+		height: auto;
+		margin: 0 auto;
+	
+	}
+	.carousel-item{
+		margin: 0 auto;
+		width: 600px;
+		height: auto;
 	}
 }
 
