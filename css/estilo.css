@@ -285,15 +285,19 @@ h1,h2,h3,h4,h5{
 }
 
 /*----------------Contacto CSS------------------*/
-
-.izq-contacto{
-	width: 75%;
-	background-color: antiquewhite;
+.correo_y_ubicacion{
+	padding: 15px;
 }
 
-.map{
-	width: 25%;
+.izq-contacto-correo{
+	width: 100%;
+	padding: 10px;
 }
+
+.der-contacto{
+	width: 100%;
+}
+
 
 /*----------------Estilos Responsivos------------------*/
 
@@ -370,7 +374,12 @@ h1,h2,h3,h4,h5{
 		width: 480px;
 		height: auto;
 	}
-	
+	.izq-contacto-correo{
+		padding: 10px;
+	}
+	.correo_y_ubicacion{
+		padding: 15px;
+	}
 }
 @media screen and (min-width:1024px){
 .container{
@@ -459,24 +468,19 @@ h1,h2,h3,h4,h5{
 		width: 600px;
 		height: auto;
 	}
+	.izq-contacto{
+		width: 100%; 
+		padding: 15px;
+	}
+	.correo_y_ubicacion{
+		padding: 10px;
+		display: flex;
+	}
+
+	.izq-contacto-correo{
+		width: 70%;
+	}
+	.der-contacto{
+		width: 30%;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
