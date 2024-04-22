@@ -468,10 +468,7 @@ h1,h2,h3,h4,h5{
 		width: 600px;
 		height: auto;
 	}
-	.izq-contacto{
-		width: 100%; 
-		padding: 15px;
-	}
+	
 	.correo_y_ubicacion{
 		padding: 10px;
 		display: flex;
