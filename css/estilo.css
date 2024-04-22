@@ -284,6 +284,17 @@ h1,h2,h3,h4,h5{
 	height: 600px;
 }
 
+/*----------------Contacto CSS------------------*/
+
+.izq-contacto{
+	width: 75%;
+	background-color: antiquewhite;
+}
+
+.map{
+	width: 25%;
+}
+
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:480px){
