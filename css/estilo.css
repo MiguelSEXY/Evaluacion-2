@@ -35,13 +35,14 @@ h1,h2,h3,h4,h5{
 .main-header{
     width: 100%;
 }
+
 .logo{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
-        
+	text-decoration: none;
 }
+
 .main-header__contactInfo__phone{
     background:#de423a;
     color: #fff;
@@ -68,7 +69,7 @@ h1,h2,h3,h4,h5{
 
 .icon-menu{
     display: block;
-    color: #fff;
+    color: #f23636;
     border: 1px solid #fff;
     border-radius: 3px;
     width: 40px;
@@ -131,10 +132,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #de7e3a;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #de7e3a;
     
 }
 .mostrar{
@@ -176,7 +177,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #de7e3a;
 	padding: 10px;
 	text-align: center;
 	
@@ -184,7 +185,7 @@ h1,h2,h3,h4,h5{
 .main__title{
 	margin: 15px 0;
 	font-size: 2.8em;
-	font-family: 'Sacramento',cursive;
+	font-family: 'Comic Sans',cursive;
 	
 }
 .column__title{
@@ -206,10 +207,9 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
 	text-align: center;
 	font-weight: bold;
-	font-size: 1.8em;
+	font-size: 1.4em;
 	margin: 30px;
 }
 
